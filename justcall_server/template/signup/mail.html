@@ -1,0 +1,94 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .main {
+        position: relative;
+        height: 400px;
+        width: 800px;
+        background-image: url("./../../assets/background/subbg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: auto;
+        font-family: "Lobster", cursive;
+        background-color: aqua;
+        text-align: center;
+      }
+
+      .main .hashCode {
+        display: inline;
+        margin: auto;
+      }
+      .main .hashCode .codeHeader{
+        font-size: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin: auto;
+        display: inline;
+        
+      }
+      .main .hashCode .code{
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: inline;
+        margin: auto;
+        cursor: pointer;
+      }
+      .mainContainer{
+      height: 100px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .main {
+          position: relative;
+          background-image: url("./../../assets/background/subbg.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          margin: auto;
+          height: 300px;
+          width: 600px;
+        }
+      }
+      @media only screen and (max-width: 400px) {
+        .main {
+          position: relative;
+          background-image: url("./../../assets/background/subbg.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          margin: auto;
+          height: 200px;
+          width: 400px;
+        }
+      }
+     
+    </style>
+  </head>
+  <body>
+    <div class="main" style="background-image: url('cid:logo1')">
+      <div class="mainContainer"></div>
+      <div class="hashCode mainContainer" style="margin: auto; margin-top:100px">
+       <div>
+        <h1 class="hashCode codeHeader" style="margin: auto">Hash - Code</h1>
+       </div>
+        <div>
+          <h3 class="hashCode code" style="margin: auto">#01923</h3>
+        </div>
+       
+      </div>
+     
+    </div>
+  </body>
+</html>
